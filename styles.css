@@ -1,3 +1,5 @@
+/* GENERAL */
+
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600;700&display=swap");
 /* color theme was taken from https://www.schemecolor.com/black-cream-off-white.php */
 :root {
@@ -75,4 +77,58 @@ img {
   display: block;
   object-fit: cover;
   width: 100%;
+}
+
+/* NAV BAR */
+
+.nav {
+  height: 5rem;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.nav-container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* only needed on tablets and phones */
+.nav-button-toggle {
+  display: none;
+}
+
+.logo {
+  width: 7.5rem;
+  padding-top: 0.25rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 4rem;
+}
+
+.nav-socials {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-socials a {
+  width: 2rem;
+  height: 2rem;
+  background: linear-gradient(var(--off-white), var(--cobalt));
+  border-radius: 0.5rem;
+  color: var(--raisin-black);
+  display: grid;
+  place-items: center;
+}
+
+.nav-socials a :hover {
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.3);
 }
