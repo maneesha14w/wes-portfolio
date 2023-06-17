@@ -92,6 +92,13 @@ img {
   z-index: 99;
 }
 
+/* nav class on scroll with js */
+.window-scrolled {
+  background: var(--off-white);
+  border-bottom: 0.2rem solid var(--cobalt);
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.3);
+}
+
 .nav-container {
   height: 100%;
   display: flex;
