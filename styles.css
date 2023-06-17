@@ -1,0 +1,12 @@
+:root {
+  /* colors */
+  --white: #fff;
+  --black: #000;
+
+  /* device % */
+  --container-large-width: 88%;
+  --container-mobile-width: 92%;
+
+  /* transition */
+  --transition: all 400ms ease;
+}
