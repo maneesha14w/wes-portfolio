@@ -1,9 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600;700&display=swap");
-
+/* color theme was taken from https://www.schemecolor.com/black-cream-off-white.php */
 :root {
   /* colors */
-  --white: #fff;
-  --black: #000;
+
+  --raisin-black: #212121;
+  --off-white: #faf9f6;
+  --blonde: #ffeec4;
+  --cobalt: #87a5e4;
+
+  /* --white: #fff;
+  --black: #000; */
 
   /* device % */
   --container-large-width: 88%;
@@ -11,6 +17,10 @@
 
   /* transition */
   --transition: all 400ms ease;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 * {
@@ -23,6 +33,46 @@
   box-sizing: border-box;
 }
 
-li {
+body {
   font-family: "Source Sans 3", Helvetica, sans-serif;
+  background: var(--off-white);
+  color: var(--raisin-black);
+  line-height: 1.7;
+}
+
+h1,
+h2 {
+  line-height: 1.1;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 4rem;
+  color: var(--raisin-black);
+}
+
+h2 {
+  font-size: 3.5rem;
+  color: var(--raisin-black);
+}
+
+a {
+  color: var(--raisin-black);
+  transition: var(--transition);
+}
+
+a:hover {
+  color: var(--cobalt);
+}
+
+.container {
+  width: var(--container-large-width);
+  margin: 0 auto;
+  max-width: 2160px;
+}
+
+img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
 }
