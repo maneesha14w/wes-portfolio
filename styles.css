@@ -2,6 +2,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600;700&display=swap");
 /* color theme was taken from https://www.schemecolor.com/black-cream-off-white.php */
+
 :root {
   /* colors */
 
@@ -45,16 +46,17 @@ body {
 h1,
 h2 {
   line-height: 1.1;
-  font-weight: 400;
 }
 
 h1 {
   font-size: 4rem;
+  font-weight: 700;
   color: var(--raisin-black);
 }
 
 h2 {
   font-size: 3.5rem;
+  font-weight: 400;
   color: var(--raisin-black);
 }
 
@@ -81,7 +83,7 @@ img {
 
 /* NAV BAR */
 
-.nav {
+nav {
   height: 5rem;
   width: 100vw;
   display: grid;
@@ -89,10 +91,11 @@ img {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 99;
+  z-index: 999;
 }
 
 /* nav class on scroll with js */
+
 .window-scrolled {
   background: var(--off-white);
   border-bottom: 0.2rem solid var(--cobalt);
@@ -138,4 +141,26 @@ img {
 
 .nav-socials a :hover {
   box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.3);
+}
+
+/* HEADER */
+
+header {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  top: 0;
+  background: linear-gradient(var(--off-white), var(--cobalt));
+  overflow: hidden;
+}
+
+.header-container {
+  display: grid;
+  grid-template-columns: 40% 50%;
+  gap: 10%;
+  margin-top: 10rem;
+  position: relative;
+}
+
+.header-image-bg {
 }
