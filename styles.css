@@ -84,7 +84,7 @@ img {
 /* NAV BAR */
 
 nav {
-  height: 5rem;
+  height: 6rem;
   width: 100vw;
   display: grid;
   place-items: center;
@@ -116,7 +116,6 @@ nav {
 
 .logo {
   width: 7.5rem;
-  padding-top: 0.25rem;
 }
 
 .nav-links {
@@ -150,17 +149,22 @@ header {
   height: 100vh;
   position: relative;
   top: 0;
-  background: linear-gradient(var(--off-white), var(--cobalt));
-  overflow: hidden;
 }
 
 .header-container {
   display: grid;
-  grid-template-columns: 40% 50%;
-  gap: 10%;
+  grid-template-columns: 60% 40%;
+  gap: 5%;
   margin-top: 10rem;
   position: relative;
 }
 
-.header-image-bg {
+.contact-btn {
+  color: var(--cobalt);
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
 }
