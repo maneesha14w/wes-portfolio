@@ -20,6 +20,10 @@
 
   /* transition */
   --transition: all 400ms ease;
+
+  --image-gap: 16px;
+  --num-cols: 3;
+  --row-height: 400px;
 }
 
 html {
@@ -168,4 +172,35 @@ nav {
 .subtext {
   margin-top: 2rem;
   opacity: 0.55;
+}
+
+/* Image Gallery */
+
+.gallery-grid {
+  box-sizing: border-box;
+  padding: var(--image-gap);
+
+  display: grid;
+  grid-template-columns: repeat(var(--num-cols), 1fr);
+  grid-auto-rows: var(--row-height);
+  gap: var(--image-gap);
+  margin-top: 15rem;
+}
+
+.gallery-grid > img {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .gallery-grid {
+    --num-cols: 2;
+    --row-height: 300px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .gallery-grid {
+    --num-cols: 1;
+  }
 }
