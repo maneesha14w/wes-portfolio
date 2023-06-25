@@ -87,7 +87,24 @@ img {
 
 /* NAV BAR */
 
-nav {
+header {
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+nav a {
+  display: block;
+}
+
+/* nav {
   height: 6rem;
   width: 100vw;
   display: grid;
@@ -96,11 +113,11 @@ nav {
   top: 0;
   left: 0;
   z-index: 99;
-}
+} */
 
 /* nav class on scroll with js */
 
-.window-scrolled {
+/* .window-scrolled {
   background: var(--off-white);
   border-bottom: 0.2rem solid var(--cobalt);
   box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2);
@@ -111,7 +128,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
+} */
 
 /* only needed on tablets and phones */
 .nav-button-toggle {
@@ -152,7 +169,7 @@ nav {
   display: flex;
   align-items: center;
   gap: 2rem;
-  margin-top: 10rem;
+  margin-top: 5rem;
 }
 
 .image-container {
@@ -202,5 +219,11 @@ nav {
 @media screen and (max-width: 600px) {
   .gallery-grid {
     --num-cols: 1;
+    margin-top: 0%;
+    place-items: center;
+  }
+
+  .gallery-grid > h1 {
+    align-self: center;
   }
 }
