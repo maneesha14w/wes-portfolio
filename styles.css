@@ -104,37 +104,6 @@ nav a {
   display: block;
 }
 
-/* nav {
-  height: 6rem;
-  width: 100vw;
-  display: grid;
-  place-items: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 99;
-} */
-
-/* nav class on scroll with js */
-
-/* .window-scrolled {
-  background: var(--off-white);
-  border-bottom: 0.2rem solid var(--cobalt);
-  box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.2);
-}
-
-.nav-container {
-  height: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-} */
-
-/* only needed on tablets and phones */
-.nav-button-toggle {
-  display: none;
-}
-
 .logo {
   width: 7.5rem;
 }
@@ -170,6 +139,7 @@ nav a {
   align-items: center;
   gap: 2rem;
   margin-top: 5rem;
+  flex-wrap: row wrap;
 }
 
 .image-container {
@@ -214,6 +184,28 @@ nav a {
     --num-cols: 2;
     --row-height: 300px;
   }
+
+  .header-section {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .image-container {
+    flex: 1;
+    margin-left: 0;
+    padding: 1%;
+  }
+
+  .text-and-contact {
+    align-self: center;
+    margin: 0;
+    padding: 0.5rem;
+  }
+
+  h1 {
+    font-size: xx-large;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -225,5 +217,9 @@ nav a {
 
   .gallery-grid > h1 {
     align-self: center;
+  }
+
+  .nav-socials {
+    display: none;
   }
 }
