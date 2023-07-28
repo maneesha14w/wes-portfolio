@@ -24,5 +24,9 @@ This website was built using following:
 - Javascript
 - [Font Awesome](https://fontawesome.com/icons)
 
+ <br> <br>
 
+ This website is hosted on NEtlify and can be found [here](https://wesker.netlify.app/).
+
+  
 
