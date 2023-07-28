@@ -7,7 +7,7 @@
   <br>
 </h1>
 
-<h4 align="center">A minimal website built for Anh TIen to showcase his photography.</h4>
+<h4 align="center">A minimal and fully responsive website built for Anh TIen to showcase his photography.</h4>
 
   <br> <br>  <br> <br>
 
