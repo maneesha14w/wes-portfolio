@@ -26,7 +26,7 @@ This website was built using following:
 
  <br> <br>
 
- This website is hosted on NEtlify and can be found [here](https://wesker.netlify.app/).
+ This website is hosted on Netlify and can be found [here](https://wesker.netlify.app/).
 
   
 
