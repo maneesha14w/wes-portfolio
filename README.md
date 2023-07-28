@@ -9,8 +9,14 @@
 
 <h4 align="center">A minimal website built for Anh TIen to showcase his photography.</h4>
 
-![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif)
+  <br> <br>  <br> <br>
 
+  <p align="center">
+    <img src="https://github.com/maneesha14w/wes-portfolio/blob/main/assets/gif.gif?raw=true"/>
+  </p>
+
+  <br> <br> 
+  
 This website was built using following:
 
 - HTML
