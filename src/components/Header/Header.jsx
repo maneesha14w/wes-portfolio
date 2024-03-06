@@ -6,7 +6,7 @@ const Header = () => {
       <div className="header-section">
         <div className="image-container">
           <img
-            src="src/assets/images/headshot-min.jpeg"
+            src="src/assets/headshot-min.jpeg"
             alt="Anh Tien taking a photo"
           />
         </div>

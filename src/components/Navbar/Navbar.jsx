@@ -7,11 +7,7 @@ const Navbar = () => {
         <ul>
           <li>
             <a href="index.html">
-              <img
-                className="logo"
-                src="src/assets/logos/logo.png"
-                alt="logo"
-              />
+              <img className="logo" src="src/assets/logo.png" alt="logo" />
             </a>
           </li>
           <li>
@@ -20,7 +16,7 @@ const Navbar = () => {
           {/* <li><a href="#contact"> Contact </a></li> */}
           <ul className="nav-socials">
             <li>
-              <a href="https://instagram.com/yaknowme.wes" target="_blank">
+              <a href="https://instagram.com/wes.ontheshore" target="_blank">
                 <i className="fa-brands fa-instagram" />
               </a>
             </li>
