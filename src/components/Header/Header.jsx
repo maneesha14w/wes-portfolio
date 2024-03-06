@@ -5,10 +5,7 @@ const Header = () => {
     <header>
       <div className="header-section">
         <div className="image-container">
-          <img
-            src="src/assets/headshot-min.jpeg"
-            alt="Anh Tien taking a photo"
-          />
+          <img src="/assets/headshot-min.jpeg" alt="Anh Tien taking a photo" />
         </div>
         <div className="text-and-contact">
           <div className="header-text">
