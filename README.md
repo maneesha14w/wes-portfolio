@@ -28,5 +28,6 @@ This website was built using following:
 
  This website is hosted on Netlify and can be found [here](https://wesker.netlify.app/).
 
+I rebuilt this website in [react](https://wesreact.netlify.app/), the sourcecode can be found in the react branch.
   
 
