@@ -1,8 +1,7 @@
 /* NAV BAR */
 
-header {
-  padding: 1rem;
-  max-width: 1200px;
+nav {
+  padding-top: 1rem;
   margin: 0 auto;
 }
 
